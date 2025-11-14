@@ -1,0 +1,24 @@
+/* Eloquent Ruby specific styles */
+.cover {
+    width: 180px;
+    border: 1px solid #ddd;
+    padding: 4px;
+    background: #fff;
+    float: left;
+    margin-right: 20px
+}
+
+.meta {
+    font-size: 14px;
+    color: #333
+}
+
+.review {
+    background: #f3f4f6;
+    padding: 12px;
+    margin-bottom: 12px
+}
+
+.review p {
+    line-height: 1.5
+}

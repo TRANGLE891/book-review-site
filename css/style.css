@@ -1,0 +1,100 @@
+/* Base styles for the whole site (no inline styles allowed) */
+:root {
+    --accent: #0366d6;
+    --muted: #666;
+    --bg: #f9fafb;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: var(--bg);
+    color: #111
+}
+
+header {
+    background: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 20px
+}
+
+header h1 {
+    margin: 0
+}
+
+nav {
+    background: #fff;
+    border-bottom: 1px solid #e6e6e6
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 12px 20px;
+    display: flex;
+    gap: 12px
+}
+
+nav a {
+    color: var(--accent);
+    text-decoration: none
+}
+
+nav a:hover {
+    color: #013a7a
+}
+
+main {
+    padding: 20px
+}
+
+footer {
+    padding: 16px;
+    background: #fff;
+    border-top: 1px solid #e6e6e6;
+    text-align: center
+}
+
+/* Utility */
+.subtitle {
+    color: var(--muted);
+    margin-top: 4px
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block
+}
+
+/* ADD CODE HERE */
+.container {
+    width: 800px;
+    height: 600px;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#orange {
+    background-color: orange;
+}
+
+/* DO NOT EDIT BELOW */
+.hidden {
+    display: none;
+}

@@ -1,0 +1,10 @@
+.flex-container {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+.flex-item {
+    background-color: red;
+    height: 100px;
+}

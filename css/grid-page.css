@@ -1,0 +1,46 @@
+/* Basic page styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    margin: 0;
+    padding: 1rem;
+    color: #222;
+    background: #f8f8fb;
+}
+
+header h1 {
+    margin: 0 0 0.25rem 0;
+}
+
+.lead {
+    margin: 0 0 1rem 0;
+    color: #555;
+}
+
+/* Generic grid item styling */
+.grid-item {
+    /* background:; */
+    color: white;
+    padding: 1rem;
+    border-radius: 6px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+/* 1) Basic three-column grid */
+.grid-basic {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+/* 2) Responsive auto-fill grid */
+.grid-responsive {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+}

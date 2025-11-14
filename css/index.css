@@ -1,0 +1,28 @@
+/* Index specific styles */
+.book-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap
+}
+
+.book-list li {
+    width: 160px
+}
+
+.book-list img {
+    width: 160px;
+    height: auto;
+    display: block;
+    border: 1px solid #ddd;
+    padding: 4px;
+    background: #fff
+}
+
+.book-title {
+    display: block;
+    margin-top: 6px;
+    font-style: italic;
+    color: #333
+}
